@@ -4,7 +4,7 @@ import requests
 from time import sleep
 from io import BytesIO
 
-st.title("Processamento de Inscrições para CPF (Requests)")
+st.title("Processamento de Inscrições para CPF")
 
 uploaded_file = st.file_uploader("Escolha um arquivo Excel", type=["xlsx"])
 
